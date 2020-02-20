@@ -1,0 +1,75 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	width: 100%;
+	max-width: 1020px;
+	box-sizing: border-box;
+	 margin: 0 auto;
+}
+.aboutus {
+	border-bottom:6px solid #ffffff;
+	height: 728px;
+	background-color: #f2f2f2;
+    padding: 66px 39px;
+}
+.aboutus__title {
+	font-size: 30px;
+    line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+.aboutus__subtitle {
+	/*width: 940px;
+height: 57px;*/
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+}
+.layout__title {
+font-size: 18px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+.layout__subtitle {
+width: 300px;
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+padding-bottom: 15px;
+word-spacing: 1.5px;
+
+}
+.layout-3-column {
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+}
+.layout__inner {
+	width: 30%;
+}
+.aboutus__subtitle{
+	padding-bottom: 45px;
+}
+
+.icons {
+width: 12px;
+height: 12px;
+border-radius: 50%;
+border: 1px solid #666d89;
+margin-right: 5px;
+padding: 10px;
+}
